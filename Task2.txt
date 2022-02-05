@@ -1,3 +1,118 @@
+//JSON DATA
+[
+    {
+        "user" :"Smit",
+        "codekata" : 100,
+        "attendance" :"Absent",
+        "topic" : "React",
+        "month" : "January",
+        "tasks" : "Not Submit",
+        "company_drive":"Not Appeared",
+        "company_drive_date":new Date("2022-10-21"),
+        "mentor" :"Akash"
+    },
+    {
+        "user" :"Harmit",
+        "codekata" : 121,
+        "attendance" :"Present",
+        "topic" : "React js",
+        "month" : "October",
+        "tasks" : "Not Submit",
+        "company_drive":"Appeared",
+        "company_drive_date":new Date("2022-01-01"),
+        "mentor" :"Harshit"
+    },
+    {
+        "user" :"Anil",
+        "codekata" : 100,
+        "attendance" :"Absent",
+        "topic" : "JS",
+        "month" : "February",
+        "tasks" : "Not Submit",
+        "company_drive":"Not Appeared",
+        "company_drive_date":new Date("2022-10-17"),
+        "mentor" :"Amar"
+    },
+    {
+        "user" :"Amit",
+        "codekata" : 111,
+        "attendance" :"Present",
+        "topic" : "React",
+        "month" : "April",
+        "tasks" : "Not Submit",
+        "company_drive":"Appeared",
+        "company_drive_date":new Date("2022-01-01"),
+        "mentor" :"Harshit"
+    },
+    {
+        "user" :"Sumit",
+        "codekata" : 121,
+        "attendance" :"Absent",
+        "topic" : "HTML/CSS/JS",
+        "month" : "October",
+        "tasks" : "Not Submit",
+        "company_drive":"Not Appeared",
+        "company_drive_date":new Date("2022-01-01"),
+        "mentor" :"Jainish"
+    },
+    {
+        "user" :"Rajesh",
+        "codekata" : 110,
+        "attendance" :"Absent",
+        "topic" : "React JS",
+        "month" : "October",
+        "tasks" : "Not Submit",
+        "company_drive":"Not Appeared",
+        "company_drive_date":new Date("2022-09-10"),
+        "mentor" :"Kirti"
+    },
+    {
+        "user" :"Smith",
+        "codekata" : 145,
+        "attendance" :"Present",
+        "topic" : "React",
+        "month" : "Navenber",
+        "tasks" : "Not Submit",
+        "company_drive":"Appeared",
+        "company_drive_date":new Date("2023-02-07"),
+        "mentor" :"Mukesh"
+    },
+    {
+        "user" :"Simba",
+        "codekata" : 99,
+        "attendance" :"Absent",
+        "topic" : "JS",
+        "month" : "March",
+        "tasks" : "Not Submit",
+        "company_drive":"Not Appeared",
+        "company_drive_date":new Date("2021-12-12"),
+        "mentor" :"Akash"
+    },
+    {
+        "user" :"Madhav",
+        "codekata" : 199,
+        "attendance" :"Present",
+        "topic" : "JS",
+        "month" : "March",
+        "tasks" : "Not Submit",
+        "company_drive":"Not Appeared",
+        "company_drive_date":new Date("2022-01-01"),
+        "mentor" :"Smir"
+    },
+    {
+        "user" :"Romin",
+        "codekata" : 99,
+        "attendance" :"Absent",
+        "topic" : "HTML/CSS/JS",
+        "month" : "March",
+        "tasks" : "Not Submit",
+        "company_drive":"Not Appeared",
+        "company_drive_date":new Date("2022-10-27"),
+        "mentor" :"Samir"
+    }
+]
+
+
 1.Find all the topics and tasks which are thought in the month of October
 db.class.find({month:"October"}).pretty()
 
